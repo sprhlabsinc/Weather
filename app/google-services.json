@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "913313099186",
+    "firebase_url": "https://tiempo-3401d.firebaseio.com",
+    "project_id": "tiempo-3401d",
+    "storage_bucket": "tiempo-3401d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913313099186:android:1176a600215f2adc",
+        "android_client_info": {
+          "package_name": "ah.creativecodeapps.tiempo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913313099186-3vf9o20fkktcatdpmjhhsc9mu4ms9kts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDON9vtIQu82MSDpxSkCX357EmQD5VPjSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
