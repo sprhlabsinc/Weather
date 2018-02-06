@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:id="@+id/layout_temperature"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:id="@+id/layout_temp1">
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11 am"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorTime" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:src="@drawable/small_sunny_icon_black"
+                    android:id="@+id/img_time1"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:text="35 C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/temp_day"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:id="@+id/layout_temp2">
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 am"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorTime" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:src="@drawable/small_sunny_icon_black"
+                    android:id="@+id/img_time2"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:text="35 C"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/temp_night"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:id="@+id/weatherDetailLayout1"
+        android:layout_below="@+id/layout_temperature"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text=" 4Km/h"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_wind_black"
+            android:id="@+id/txt_wind1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/customborder"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:text=" 82.0%"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_wet_black"
+            android:id="@+id/txt_humidity1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/customborder"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text=" 8.0mm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_rain_small_black"
+            android:id="@+id/txt_precipitation1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/customborder"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:id="@+id/weatherDetailLayout2"
+        android:layout_below="@+id/weatherDetailLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text=" 4Km/h"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_wind_black"
+            android:id="@+id/txt_wind2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/customborder"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text=" 82.0%"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_wet_black"
+            android:id="@+id/txt_humidity2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/customborder"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text=" 8.0mm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_rain_small_black"
+            android:id="@+id/txt_precipitation2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/customborder"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

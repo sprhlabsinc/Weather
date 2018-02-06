@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather</string>
+    <string name="widget_name">WeatherWidget</string>
+    <string name="change_city">Change City</string>
+    <string name="auto_change_city">Autodetect City</string>
+    <string name="change_units">Change Units</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="change">Change!</string>
+    <string name="pronostico">Forecast</string>
+    <string name="searching">Searching&#8230;</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">d798df413584f04273136051afe79d28</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, data not found.</string>
+    <string name="last_update">Last update</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="probability_precipitation">Probability of precipitation</string>
+    <string name="language_code">en</string>
+
+    <string name="drawer_open">Opening Drawer</string>
+    <string name="drawer_close">Closing Drawer</string>
+    <string name="srch">search</string>
+    <string name="enter_location">Enter City Name</string>
+    <string name="btn_forecast_hours">Forecast for next hours</string>
+    <string name="btn_forecast_days">Forecast 14 days</string>
+    <string name="auto_location">Auto Location</string>
+    <string name="auto_location_description">Turn on this setting to always get forecast of your location</string>
+    <string name="forecast_compare_cities">Compare forecasts in cities</string>
+    <string name="compare_cities_description">This feature lets you compare forecasts in two cities</string>
+    <string name="hint_entercity1">Enter city1</string>
+    <string name="hint_entercity2">Enter city 2</string>
+    <string name="btn_compare_cities">Compare these cities</string>
+    <string name="favorite_cities">Favorite Cities</string>
+    <string name="comparing">Comparing</string>
+    <string name="warning_enter_cityname1">Please enter city1</string>
+    <string name="warning_enter_cityname2">Please enter city2</string>
+
+    <!--<string name="banner_ad_unit_id">ca-app-pub-7438586940016371/5288184479</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-7438586940016371/5039148478</string>
+    <string name="banner_size">280x80</string>
+
+</resources>

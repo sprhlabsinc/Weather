@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tempo</string>
+    <string name="widget_name">TempoWidget</string>
+    <string name="change_city">Alterar Cidade</string>
+    <string name="auto_change_city">Auto-detectar Cidade</string>
+    <string name="change_units">Alterar unidades</string>
+    <string name="city">Cidade</string>
+    <string name="country">País</string>
+    <string name="change">Alterar!</string>
+    <string name="pronostico">Previsão</string>
+    <string name="searching">Procurando&#8230;</string>
+    
+    <string name="place_not_found">Desculpe, no encomtramos dados.</string>
+    <string name="last_update">Última atualização</string>
+    <string name="humidity">Umidade</string>
+    <string name="pressure">Pressão</string>
+    <string name="probability_precipitation">Possibilidade de chuva</string>
+    <string name="language_code">pt</string>
+    
+</resources>

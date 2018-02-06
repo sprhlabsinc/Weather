@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clima</string>
+    <string name="widget_name">ClimaWidget</string>
+    <string name="change_city">Cambiar ciudad</string>
+    <string name="auto_change_city">Auto-detectar ciudad</string>
+    <string name="change_units">Cambiar unidades</string>
+    <string name="city">Ciudad</string>
+    <string name="country">País</string>
+    <string name="change">Cambiar!</string>
+    <string name="pronostico">Pronostico</string>
+    <string name="searching">Buscando&#8230;</string>
+    
+    <string name="place_not_found">Lo sentimos, no encontramos datos.</string>    
+    <string name="last_update">Última actualización:</string>
+    <string name="humidity">Humedad</string>
+    <string name="pressure">Presión</string>
+    <string name="probability_precipitation">Probabilidad de lluvia</string>
+    <string name="language_code">sp</string>
+    
+</resources>

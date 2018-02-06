@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_white">#22FFFFFF</color>
+    <drawable name="menu_item_pressed_background_color">#22CCCCCC</drawable>
+    <drawable name="menu_item_background_color">#00000000</drawable>
+    <color name="days_line_separator_color">#22CCCCCC</color>
+
+    <color name="colorNight">#453362</color>
+    <color name="colorDay">#f6aa58</color>
+    <color name="colorTime">#fb4f68</color>
+</resources>
